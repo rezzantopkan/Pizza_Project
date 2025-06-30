@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #b22222;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+#menuBG {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.left, .middle, .right {
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+}
+
+#cart {
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#btnOrder {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#btnOrder:hover {
+  background-color: #e63e00;
+}
